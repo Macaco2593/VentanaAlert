@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hotpink;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+div{
+    position: relative;
+    bottom: 80%;
+}
+
+.VentanaEmergente{
+    border-radius: 5px;
+    display: flex;
+    background-color: whitesmoke;
+    min-height: 20vh;   
+    padding-left: 20px;
+    width: 400px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    
+}
+button{
+    display: flex;
+    background-color: rgb(26, 115, 232);
+    color: whitesmoke;
+    left: 200%;
+    padding: 10px 20px;
+    position: relative;
+    border-radius: 10px;
+    border-color: transparent;
+
+}
+
+.show{
+    opacity: 1;
+
+}
+
+.hide{
+    opacity: 0;
+
+}
