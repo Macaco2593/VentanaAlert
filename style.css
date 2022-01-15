@@ -5,15 +5,11 @@
 body{
     background-color: hotpink;
     font-family: 'Times New Roman', Times, serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
 }
 
 div{
     position: relative;
-    bottom: 80%;
+    bottom: 60%;
 }
 
 .VentanaEmergente{
@@ -27,7 +23,7 @@ div{
     position: fixed;
     
 }
-button{
+#abrir{
     display: flex;
     background-color: rgb(26, 115, 232);
     color: whitesmoke;
@@ -37,6 +33,16 @@ button{
     border-radius: 10px;
     border-color: transparent;
 
+}
+
+.button__modal--cerrar{
+    display: flex;
+    background-color: rgb(26, 115, 232);
+    color: whitesmoke;
+    padding: 10px 20px;
+    position: relative;
+    border-radius: 10px;
+    border-color: transparent;
 }
 
 .show{
